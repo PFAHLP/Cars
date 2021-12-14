@@ -66,7 +66,8 @@ field_length = length_field(power_demand, solar, spacing, eff_prod)
 st.metric(label="Therefore the side stripe has to be", value= "%s m." %int(field_length), delta= None)
 
 st.markdown('''
-    it does not matter how long the road is, since we grow the crops beside the road
+    it does not matter how long the road is, since we grow the crops beside the road.
+    This number maybe makes you think. Thinking about the needed areas and the needed energy.
 ''')
 
 

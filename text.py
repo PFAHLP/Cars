@@ -12,11 +12,6 @@ How wide would this area be? \n
             '''
 text_2 = '''
 
-In order to adress this problem some assumptions need to be done.
-How efficient can we make the fuel from the sun light?
-How efficient does the car burn the fuel?
-How fast is the car going?
-How much air resistance does the car have?
-How far are the cars appart?
+
 
             '''

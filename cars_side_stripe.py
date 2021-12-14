@@ -75,3 +75,16 @@ st.markdown('''
 st.latex(r'''
          F = c_w A \frac{1}{2} \rho v^2
      ''')
+
+
+import matplotlib.pyplot as plt
+
+chart_data = pd.DataFrame(
+     np.array(
+     [np.arange(0, 3, 0.1) * speed,
+     np.arange(0, 3, 0.1)*eff_car,
+     np.arange(0, 3, 0.1)+spacing]
+     ).T,
+     columns=['a', 'b', 'c'])
+
+st.line_chart(chart_data)
